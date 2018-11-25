@@ -10,6 +10,8 @@ A simple two column layout which has a list of friends on the left column, and c
 - Search for a friend and start a chat with him/her.
 - Send messages to this friend and see the replies in a typical messaging format.
 - Switch between friends and see the appropriate chat history.
+- Chat history is auto scrollable
+- The sent message echoes back to the sender
 
 ### Development
 ```bash

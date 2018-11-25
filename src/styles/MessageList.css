@@ -1,0 +1,86 @@
+.right-container {
+    background-color: #f5f5f5;
+    position: absolute;
+    right: 0;
+    padding: 20px;
+    top: 0;
+    width: 75%;
+    height: 100vh;
+    padding: 0;
+}
+
+.blank {
+    background-color: #f5f5f5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+}
+
+.message-container {
+    background-color: white;
+    height: 92vh;
+    margin: 0;
+    /* height: calc(100% - 35px); */
+    position: relative;
+    background: #efe7dd url("https://cloud.githubusercontent.com/assets/398893/15136779/4e765036-1639-11e6-9201-67e728e86f39.jpg") repeat;
+    z-index: 0;
+}
+
+.message-container__title {
+    background-color: #f7f7f7;
+    padding: 3.2rem 0;
+    margin-bottom: 3.2rem;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.8;
+    letter-spacing: 4px;
+    word-spacing: 8px;
+}
+
+.container-border__bottom {
+    border-bottom: 1px solid #D6D9DC;
+}
+
+.message {
+    color: #000;
+    clear: both;
+    line-height: 18px;
+    font-size: 15px;
+    padding: 8px;
+    position: relative;
+    margin: 8px 0;
+    max-width: 85%;
+    word-wrap: break-word;
+    z-index: -1;
+    background: #e1ffc7;
+    border-radius: 5px 0 5px 5px;
+    float: right;
+}
+
+.message.sent {
+    right: 10%;
+}
+
+.message.receieved {
+    left: 10%;
+    float: left;
+    background: white;
+}
+
+.metadata {
+    display: inline-block;
+    float: right;
+    padding: 0 0 0 7px;
+    position: relative;
+    bottom: -4px;
+}
+
+.metadata .time {
+    color: rgba(0, 0, 0, .45);
+    font-size: 11px;
+    display: inline-block;
+}

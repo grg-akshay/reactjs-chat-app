@@ -1,0 +1,48 @@
+.sidebar {
+    left: 0;
+    width: 25%;
+    height: 100vh;
+}
+
+.search-container {
+    background-color: #499C9A;
+    color: #ccc;
+    padding: 20px;
+    font-weight: normal;
+    line-height: 2;
+    text-transform: uppercase;
+    font-size: 90%;
+    width: 100%;
+    border: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 20px;
+    color: #838996;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-bottom: 0.2px solid darkgrey;
+}
+
+li .active {
+    border-color: #e35205;
+}
+li:hover {
+    color: black;
+    cursor: pointer;
+    background-color: #F5F5F5;
+}
+
+.active {
+    background-color: #DAE1E7;
+}
+
+.container-height {
+    height: 84vh;
+}

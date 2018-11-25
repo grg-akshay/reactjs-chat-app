@@ -13,6 +13,10 @@ A simple two column layout which has a list of friends on the left column, and c
 - Chat history is auto scrollable
 - The sent message echoes back to the sender
 
+### Component architecture
+
+<img width="954" alt="react-chat-component" src="https://user-images.githubusercontent.com/28497360/48979215-5fc53b00-f0dd-11e8-84ab-c5bda5385dcc.PNG">
+
 ### Development
 ```bash
 npm install
@@ -26,7 +30,3 @@ npm run start
 - WebSocket echo service like https://www.websocket.org/echo.html
 - HTML5 
 - CSS
-
-### Component architecture
-
-<img width="954" alt="react-chat-component" src="https://user-images.githubusercontent.com/28497360/48979215-5fc53b00-f0dd-11e8-84ab-c5bda5385dcc.PNG">
